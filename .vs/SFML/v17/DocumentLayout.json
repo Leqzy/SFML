@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joeyv\\source\\repos\\SFML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|C:\\Users\\joeyv\\source\\repos\\SFML\\SFML.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|solutionrelative:SFML.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SFML.cpp",
+              "DocumentMoniker": "C:\\Users\\joeyv\\source\\repos\\SFML\\SFML.cpp",
+              "RelativeDocumentMoniker": "SFML.cpp",
+              "ToolTip": "C:\\Users\\joeyv\\source\\repos\\SFML\\SFML.cpp",
+              "RelativeToolTip": "SFML.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-02T09:01:45.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
