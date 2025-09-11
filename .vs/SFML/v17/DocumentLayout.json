@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\joeyv\\source\\repos\\SFML\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|C:\\Users\\joeyv\\source\\repos\\SFML\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|solutionrelative:Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|C:\\Users\\joeyv\\source\\repos\\SFML\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|C:\\Users\\joeyv\\source\\repos\\SFML\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|C:\\Users\\joeyv\\source\\repos\\SFML\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|C:\\Users\\joeyv\\source\\repos\\SFML\\SFML.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|solutionrelative:SFML.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|C:\\Users\\joeyv\\source\\repos\\SFML\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAD76B43-FC36-4014-8105-4B67FBC47D4D}|SFML.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\joeyv\\source\\repos\\SFML\\Character.cpp",
+              "RelativeDocumentMoniker": "Character.cpp",
+              "ToolTip": "C:\\Users\\joeyv\\source\\repos\\SFML\\Character.cpp",
+              "RelativeToolTip": "Character.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-11T09:05:36.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Character.h",
+              "DocumentMoniker": "C:\\Users\\joeyv\\source\\repos\\SFML\\Character.h",
+              "RelativeDocumentMoniker": "Character.h",
+              "ToolTip": "C:\\Users\\joeyv\\source\\repos\\SFML\\Character.h",
+              "RelativeToolTip": "Character.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-11T09:04:55.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\joeyv\\source\\repos\\SFML\\Game.h",
               "RelativeDocumentMoniker": "Game.h",
               "ToolTip": "C:\\Users\\joeyv\\source\\repos\\SFML\\Game.h",
               "RelativeToolTip": "Game.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-09T09:16:18.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\joeyv\\source\\repos\\SFML\\Game.cpp",
               "RelativeDocumentMoniker": "Game.cpp",
               "ToolTip": "C:\\Users\\joeyv\\source\\repos\\SFML\\Game.cpp",
               "RelativeToolTip": "Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T09:16:38.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SFML.cpp",
               "DocumentMoniker": "C:\\Users\\joeyv\\source\\repos\\SFML\\SFML.cpp",
               "RelativeDocumentMoniker": "SFML.cpp",
               "ToolTip": "C:\\Users\\joeyv\\source\\repos\\SFML\\SFML.cpp",
               "RelativeToolTip": "SFML.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-02T09:01:45.465Z",
               "EditorCaption": ""
