@@ -1,5 +1,1 @@
-﻿  Game.cpp
-C:\Users\joeyv\source\repos\SFML\Game.cpp(15,34): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
-  SFML.cpp
-  Generating Code...
-  SFML.vcxproj -> C:\Users\joeyv\source\repos\SFML\x64\Debug\SFML.exe
+﻿LINK : fatal error LNK1168: cannot open C:\Users\joeyv\source\repos\SFML\x64\Debug\SFML.exe for writing

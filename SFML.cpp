@@ -11,7 +11,7 @@
 
 int main()
 {
-    Game myGame;
+    Game myGame(200, 200, "test");
 
     if (!myGame.GetIsRunning() == false) {
         myGame.Update();

@@ -1,6 +1,8 @@
 #include "Game.h"
 
-Game::Game() {
+Game::Game(int windowHeight, int windowWidth, std::string windowTitle)
+	:window(sf::VideoMode(windowHeight, windowWidth), windowTitle)
+{
     isRunning = true;
 }
 Game::~Game() {
@@ -10,10 +12,6 @@ bool Game::GetIsRunning() {
 	return isRunning;
 }
 void Game::Update() {
-
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f, 100.f);
-    shape.setFillColor(sf::Color::Green);
 
     while (window.isOpen())
     {
@@ -25,7 +23,7 @@ void Game::Update() {
         }
 
         window.clear();
-        window.draw(shape);
         window.display();
+
     }
 }
