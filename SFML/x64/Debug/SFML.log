@@ -1,1 +1,4 @@
-﻿LINK : fatal error LNK1168: cannot open C:\Users\joeyv\source\repos\SFML\x64\Debug\SFML.exe for writing
+﻿  Game.cpp
+C:\Users\joeyv\source\repos\SFML\Game.cpp(27,21): error C2065: 'ball': undeclared identifier
+  Player.cpp
+  Generating Code...

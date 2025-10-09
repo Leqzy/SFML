@@ -23,7 +23,15 @@ void Game::Update() {
         }
 
         window.clear();
+
+        
+
         window.display();
 
     }
+}
+
+void Game::Draw() {
+
+    
 }

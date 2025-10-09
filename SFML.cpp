@@ -11,9 +11,9 @@
 
 int main()
 {
-    Game myGame(200, 200, "test");
+    Game myGame(800, 600, "Pong");
 
-    if (!myGame.GetIsRunning() == false) {
+    if (myGame.GetIsRunning()) {
         myGame.Update();
     }
 

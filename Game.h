@@ -12,14 +12,17 @@ public:
 	~Game();  //destructor
 
 	void Update();
-	//structuur van de functie:
-	//return type, functie naam ( argumenten );
+
 	bool GetIsRunning();
 	sf::RenderWindow window;
+	void Draw();
+
 
 
 private:
+
 	bool isRunning = false;
+
 protected:
 
 };
