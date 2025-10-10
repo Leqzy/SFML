@@ -1,4 +1,3 @@
-﻿  Game.cpp
-C:\Users\joeyv\source\repos\SFML\Game.cpp(27,21): error C2065: 'ball': undeclared identifier
-  Player.cpp
-  Generating Code...
+﻿  Player.cpp
+C:\Users\joeyv\source\repos\SFML\Player.cpp(10,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  SFML.vcxproj -> C:\Users\joeyv\source\repos\SFML\x64\Debug\SFML.exe

@@ -4,6 +4,8 @@
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
 #include <string>
+#include "Ball.h"
+#include "Player.h"
 
 class Game
 {
@@ -20,6 +22,9 @@ public:
 
 
 private:
+	Ball ball;
+	Player player1;
+	Player player2;
 
 	bool isRunning = false;
 

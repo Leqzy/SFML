@@ -4,7 +4,7 @@
 class Ball {
 public:
     Ball();
-    const sf::CircleShape&s getShape() const;
+    const sf::CircleShape& getShape() const;
 
 private:
     sf::CircleShape ball;
