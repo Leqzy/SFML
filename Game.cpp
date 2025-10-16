@@ -1,19 +1,24 @@
 #include "Game.h"
 
-Game::Game(int windowHeight, int windowWidth, std::string windowTitle)
-	:window(sf::VideoMode(windowHeight, windowWidth), windowTitle)
+Game::Game(int windowWidth, int windowHeight, std::string windowTitle)
+   :window(sf::VideoMode(windowWidth, windowHeight), windowTitle),
+    player1(Player::PLAYER1, windowHeight),
+    player2(Player::PLAYER2, windowHeight)
 {
     player1.setPosition(50.f, 250.f);
     player2.setPosition(750.f, 250.f);
 
     isRunning = true;
 }
+
 Game::~Game() {
 
 }
+
 bool Game::GetIsRunning() {
 	return isRunning;
 }
+
 void Game::Update() {
 
     while (window.isOpen())
@@ -25,8 +30,8 @@ void Game::Update() {
                 window.close();
         }
 
-        player1.update(sf::Keyboard::W, sf::Keyboard::S);
-        player2.update(sf::Keyboard::Up, sf::Keyboard::Down);
+        player1.update(window);
+        player2.update(window);
 
         window.clear();
 

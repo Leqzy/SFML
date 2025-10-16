@@ -9,6 +9,7 @@
 
 class Game
 {
+
 public:
 	Game(int WindowWidth, int WindowHeight, std::string WindowTitle);   //constructor
 	~Game();  //destructor
@@ -18,7 +19,6 @@ public:
 	bool GetIsRunning();
 	sf::RenderWindow window;
 	void Draw();
-
 
 
 private:
