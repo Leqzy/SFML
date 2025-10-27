@@ -32,12 +32,11 @@ void Game::Update() {
 
         player1.update(window);
         player2.update(window);
+        ball.update(window, player1.getShape(), player2.getShape());
+
 
         window.clear();
-
         Draw();
-
-
         window.display();
 
     }

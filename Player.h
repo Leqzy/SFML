@@ -16,7 +16,7 @@ private:
     sf::RectangleShape player;
     sf::Keyboard::Key upKey;
     sf::Keyboard::Key downKey;
-    float speed = 0.2f;
+    float speed = 0.1f;
     float windowHeight;
 
     void handleInput();
