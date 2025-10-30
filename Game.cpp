@@ -8,6 +8,13 @@ Game::Game(int windowWidth, int windowHeight, std::string windowTitle)
     player1.setPosition(50.f, 250.f);
     player2.setPosition(750.f, 250.f);
 
+    font.loadFromFile("arial.tff");
+    if (!font.loadFromFile("arial.tff")) {
+        std::cout << "Font laad niet";
+    }
+
+    score = new Score(windowWidth, font);
+
     isRunning = true;
 }
 
@@ -30,16 +37,44 @@ void Game::Update() {
                 window.close();
         }
 
-        player1.update(window);
-        player2.update(window);
-        ball.update(window, player1.getShape(), player2.getShape());
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) && !ballMoving) {
+            ballMoving = true;
+        }
 
+        if (ballMoving) {
+            player1.update(window);
+            player2.update(window);
+            ball.update(window, player1.getShape(), player2.getShape());
+
+
+            float x = ball.getShape().getPosition().x;
+            float windowWidth = static_cast<float>(window.getSize().x);
+
+            if (x < 0) { //rechts scoort
+                score->addPointToPlayer2();
+                resetRound();
+            }
+            else if (x > windowWidth) { //links scoort
+                score->addPointToPlayer1();
+                resetRound();
+            }
+
+            if (score->hasWinner()) {
+                ballMoving = false;
+            }
+        }
 
         window.clear();
         Draw();
         window.display();
 
     }
+
+}
+
+void Game::resetRound() {
+    bool ballMoving = false;
+    ball.reset(window);
 }
 
 void Game::Draw() {
@@ -47,4 +82,5 @@ void Game::Draw() {
     window.draw(ball.getShape());
     window.draw(player1.getShape());
     window.draw(player2.getShape());
+    score->draw(window);
 }

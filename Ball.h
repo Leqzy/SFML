@@ -6,6 +6,7 @@ public:
     Ball();
     void update(const sf::RenderWindow& window, const sf::RectangleShape player1, const sf::RectangleShape player2);
     const sf::CircleShape& getShape() const;
+    void reset(const sf::RenderWindow& window);
 
 private:
     sf::CircleShape ball;
@@ -13,4 +14,5 @@ private:
 
     void wallCollision(const sf::RenderWindow& window);
     void playerCollision(const sf::RectangleShape player1, const sf::RectangleShape player2);
+
 };

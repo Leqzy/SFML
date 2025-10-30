@@ -6,6 +6,7 @@
 #include <string>
 #include "Ball.h"
 #include "Player.h"
+#include "Score.h"
 
 class Game
 {
@@ -20,11 +21,15 @@ public:
 	sf::RenderWindow window;
 	void Draw();
 
+	void resetRound();
 
 private:
 	Ball ball;
 	Player player1;
 	Player player2;
+	Score* score;
+	sf::Font font;
+	bool ballMoving = false;
 
 	bool isRunning = false;
 
