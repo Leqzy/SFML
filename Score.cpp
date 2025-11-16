@@ -5,8 +5,8 @@ Score::Score(float windowWidth, const sf::Font& font) {
     score2 = 0;
 
     scoreText.setFont(font);
-    scoreText.setCharacterSize(30);
-    scoreText.setFillColor(sf::Color::White);
+    scoreText.setCharacterSize(50);
+    scoreText.setFillColor(sf::Color::Red);
     scoreText.setPosition(windowWidth / 2.f - 30.f, 10.f);
 }
 

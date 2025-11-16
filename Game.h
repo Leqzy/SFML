@@ -16,12 +16,9 @@ public:
 	~Game();  //destructor
 
 	void Update();
-
 	bool GetIsRunning();
 	sf::RenderWindow window;
 	void Draw();
-
-	void resetRound();
 
 private:
 	Ball ball;

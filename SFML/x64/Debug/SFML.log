@@ -1,8 +1,7 @@
 ﻿  Game.cpp
 E:\School\Pong\SFML\Game.cpp(5,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\School\Pong\SFML\Game.cpp(6,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\School\Pong\SFML\Game.cpp(16,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\School\Pong\SFML\Game.cpp(17,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   SFML.cpp
-  Score.cpp
   Generating Code...
   SFML.vcxproj -> E:\School\Pong\SFML\x64\Debug\SFML.exe

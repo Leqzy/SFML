@@ -8,11 +8,12 @@ Game::Game(int windowWidth, int windowHeight, std::string windowTitle)
     player1.setPosition(50.f, 250.f);
     player2.setPosition(750.f, 250.f);
 
-    font.loadFromFile("arial.tff");
-    if (!font.loadFromFile("arial.tff")) {
+    font.loadFromFile("Fonts/Blippo-Bold.ttf");
+    if (!font.loadFromFile("Fonts/Blippo-Bold.ttf")) {
         std::cout << "Font laad niet";
     }
 
+    bool ballMoving = false;
     score = new Score(windowWidth, font);
 
     isRunning = true;
@@ -52,11 +53,11 @@ void Game::Update() {
 
             if (x < 0) { //rechts scoort
                 score->addPointToPlayer2();
-                resetRound();
+                ball.reset(window);
             }
             else if (x > windowWidth) { //links scoort
                 score->addPointToPlayer1();
-                resetRound();
+                ball.reset(window);
             }
 
             if (score->hasWinner()) {
@@ -70,11 +71,6 @@ void Game::Update() {
 
     }
 
-}
-
-void Game::resetRound() {
-    bool ballMoving = false;
-    ball.reset(window);
 }
 
 void Game::Draw() {

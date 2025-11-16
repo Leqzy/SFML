@@ -2,14 +2,12 @@
 #include <cstdlib>
 
 Ball::Ball() {
-    ball.setRadius(10);
-    ball.setFillColor(sf::Color::White);
+    ball.setRadius(12);
+    ball.setFillColor(sf::Color::Blue);
     ball.setOrigin(ball.getRadius(), ball.getRadius());
     ball.setPosition(400, 300);
 
     speed = sf::Vector2f(0.06f, 0.1f);
-
-
 }
 
 void Ball::update(const sf::RenderWindow& window, const sf::RectangleShape player1, const sf::RectangleShape player2) {
@@ -44,14 +42,11 @@ void Ball::playerCollision(const sf::RectangleShape player1, const sf::Rectangle
 }
 
 void Ball::reset(const sf::RenderWindow& window) {
-    // zet de bal in het midden
     ball.setPosition(
         static_cast<float>(window.getSize().x) / 2.f,
         static_cast<float>(window.getSize().y) / 2.f
     );
 
-    // geef hem een willekeurige richting
-    speed = sf::Vector2f(4.f, 3.f);
 
     if (rand() % 2 == 0)
         speed.x = -speed.x;
