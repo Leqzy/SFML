@@ -51,11 +51,11 @@ void Game::Update() {
             float x = ball.getShape().getPosition().x;
             float windowWidth = static_cast<float>(window.getSize().x);
 
-            if (x < 0) { //rechts scoort
+            if (x < 0) { //rechts scoort//
                 score->addPointToPlayer2();
                 ball.reset(window);
             }
-            else if (x > windowWidth) { //links scoort
+            else if (x > windowWidth) { //links scoort//
                 score->addPointToPlayer1();
                 ball.reset(window);
             }
@@ -68,13 +68,11 @@ void Game::Update() {
         window.clear();
         Draw();
         window.display();
-
     }
-
 }
 
 void Game::Draw() {
-
+    //alles wat weergegeven moet worden in je scherm//
     window.draw(ball.getShape());
     window.draw(player1.getShape());
     window.draw(player2.getShape());

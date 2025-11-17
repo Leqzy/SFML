@@ -2,6 +2,7 @@
 #include <cstdlib>
 
 Ball::Ball() {
+    //instellingen van de bal//
     ball.setRadius(12);
     ball.setFillColor(sf::Color::Blue);
     ball.setOrigin(ball.getRadius(), ball.getRadius());
